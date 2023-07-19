@@ -1,0 +1,548 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://eaontology.linkeddata.es/kos/EA0001>
+  a skos:Concept ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Harm"@en ;
+  skos:narrower <http://eaontology.linkeddata.es/kos/EA0002>, <http://eaontology.linkeddata.es/kos/EA0003>, <http://eaontology.linkeddata.es/kos/EA0008>, <http://eaontology.linkeddata.es/kos/EA0009> ;
+  skos:definition "Any detrimental effect of a significant nature on a child’s physical,psychological or emotional well-being."@en .
+
+<http://eaontology.linkeddata.es/kos/EA0002>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0001> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Enviromental harm"@en ;
+  skos:relatedMatch <http://publications.europa.eu/resource/authority/eurovoc/371> ;
+  skos:definition "Any bad effect on the environment."@en .
+
+<http://eaontology.linkeddata.es/kos/EA0003>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0001> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Social harm"@en ;
+  skos:narrower <http://eaontology.linkeddata.es/kos/EA0004>, <http://eaontology.linkeddata.es/kos/EA0005>, <http://eaontology.linkeddata.es/kos/EA0006>, <http://eaontology.linkeddata.es/kos/EA0007> ;
+  skos:definition "Damage inflicted on society."@en .
+
+<http://eaontology.linkeddata.es/kos/EA0004>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0003> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Harm to social relation"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0005>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0003> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Harm to the interests of societal groups"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0006>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0003> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Harm to social values"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0007>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0003> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Harm to democratics life"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0008>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0001> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Bodily harm"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0009>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0001> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Health harm"@en ;
+  skos:narrower <http://eaontology.linkeddata.es/kos/EA0010>, <http://eaontology.linkeddata.es/kos/EA0011> .
+
+<http://eaontology.linkeddata.es/kos/EA0010>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0009> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Psychological harm"@en ;
+  skos:exactMatch <https://w3id.org/dpv/risk#PsychologicalHarm> ;
+  skos:definition "Damage to a person's mind."@en .
+
+<http://eaontology.linkeddata.es/kos/EA0011>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0009> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Pain and suffering"@en ;
+  skos:definition "Physical or psychological sensation of pain or discomfort,which could be caused by illness."@en .
+
+<http://eaontology.linkeddata.es/kos/EA0012>
+  a skos:Concept ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Right"@en ;
+  skos:narrower <http://eaontology.linkeddata.es/kos/EA0013>, <http://eaontology.linkeddata.es/kos/EA0018>, <http://eaontology.linkeddata.es/kos/EA0023>, <http://eaontology.linkeddata.es/kos/EA0024>, <http://eaontology.linkeddata.es/kos/EA0028>, <http://eaontology.linkeddata.es/kos/EA0031>, <http://eaontology.linkeddata.es/kos/EA0032> ;
+  skos:relatedMatch <https://w3id.org/dpv/rights/eu#A12-FreedomOfAssemblyAssociation> ;
+  skos:definition "Liberty to do actions,or to decide the event."@en .
+
+<http://eaontology.linkeddata.es/kos/EA0013>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0012> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Freedom"@en ;
+  skos:narrower <http://eaontology.linkeddata.es/kos/EA0014>, <http://eaontology.linkeddata.es/kos/EA0015>, <http://eaontology.linkeddata.es/kos/EA0016> ;
+  skos:definition "Could be understood both strategically and visionary and very often the two aspects are entangled."@en .
+
+<http://eaontology.linkeddata.es/kos/EA0014>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0013> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Freedom of assembly"@en ;
+  skos:narrower <http://eaontology.linkeddata.es/kos/EA0017> ;
+  skos:relatedMatch <https://w3id.org/dpv/rights/eu#A12-FreedomOfAssemblyAssociation> .
+
+<http://eaontology.linkeddata.es/kos/EA0015>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0013> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Freedom of movement"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0016>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0013> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Freedom of spech and expression"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0017>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0014> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Freedom of speech and expresion"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0018>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0012> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Autonomy"@en ;
+  skos:narrower <http://eaontology.linkeddata.es/kos/EA0019>, <http://njh.me/Acountabiity>, <http://njh.me/InformedConset>, <http://eaontology.linkeddata.es/kos/EA0022> ;
+  skos:definition "Autonomy: Right to be independent or make one's own decisions"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0019>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0018> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Ability to make one's thoughts and form one's own opinions"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0020>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0018> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Accountabiity"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0021>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0018> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "InformedConsent"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0022>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0018> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Responsability"@en ;
+  skos:definition "Quality or state of being responsible."@en .
+
+<http://eaontology.linkeddata.es/kos/EA0023>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0012> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Human dignity"@en ;
+  skos:exactMatch <https://w3id.org/dpv/rights/eu#A1-HumanDignity> ;
+  skos:definition "Right for each person to be respected."@en .
+
+<http://eaontology.linkeddata.es/kos/EA0024>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0012> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Privacy"@en ;
+  skos:narrower <http://eaontology.linkeddata.es/kos/EA0025>, <http://eaontology.linkeddata.es/kos/EA0026>, <http://eaontology.linkeddata.es/kos/EA0027> ;
+  skos:definition "Right to not be disturbed by anything."@en .
+
+<http://eaontology.linkeddata.es/kos/EA0025>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0024> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Information privacy"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0026>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0024> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Bodily privacy"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0027>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0024> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Relational privacy"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0028>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0012> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Property"@en ;
+  skos:narrower <http://eaontology.linkeddata.es/kos/EA0029>, <http://eaontology.linkeddata.es/kos/EA0030> ;
+  skos:definition "Refer to possession or belong to someone."@en .
+
+<http://eaontology.linkeddata.es/kos/EA0029>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0028> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Intelectual property rigths"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0030>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0028> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Rigth to property"@en ;
+  skos:exactMatch <https://w3id.org/dpv/rights/eu#A17-RightToProperty> .
+
+<http://eaontology.linkeddata.es/kos/EA0031>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0012> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Animal rigth and animal welfare"@en ;
+  skos:definition "Animal right is about the prohibition to use animals for food,clothing,experimentation or entertainment. Animal welfare means that,the uses are permit as along as humane guidelines are followed."@en .
+
+<http://eaontology.linkeddata.es/kos/EA0032>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0012> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Other basic human right"@en ;
+  skos:narrower <http://eaontology.linkeddata.es/kos/EA0033>, <http://eaontology.linkeddata.es/kos/EA0034>, <http://eaontology.linkeddata.es/kos/EA0035>, <http://eaontology.linkeddata.es/kos/EA0036>, <http://eaontology.linkeddata.es/kos/EA0037>, <http://eaontology.linkeddata.es/kos/EA0038>, <http://eaontology.linkeddata.es/kos/EA0039>, <http://eaontology.linkeddata.es/kos/EA0040> .
+
+<http://eaontology.linkeddata.es/kos/EA0033>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0032> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Right to engage in peacful protest"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0034>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0032> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Rigth to have a fair trial"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0035>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0032> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Rigth to life"@en ;
+  skos:exactMatch <https://w3id.org/dpv/rights/eu#A2-RightToLife> .
+
+<http://eaontology.linkeddata.es/kos/EA0036>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0032> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Rigth to practice one's religion"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0037>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0032> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Rigth to pursue happiness"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0038>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0032> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Rigth to receive an education"@en ;
+  skos:exactMatch <https://w3id.org/dpv/rights/eu#A14-RightToEducation> .
+
+<http://eaontology.linkeddata.es/kos/EA0039>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0032> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Rigth to seek asylum"@en ;
+  skos:exactMatch <https://w3id.org/dpv/rights/eu#A18-RightToAsylum> .
+
+<http://eaontology.linkeddata.es/kos/EA0040>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0032> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Rigth to vote"@en ;
+  skos:exactMatch <http://metadata.un.org/thesaurus/1005570> .
+
+<http://eaontology.linkeddata.es/kos/EA0041>
+  a skos:Concept ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Justice"@en ;
+  skos:narrower <http://eaontology.linkeddata.es/kos/EA0042> ;
+  skos:exactMatch <https://w3id.org/dpv/dpv-owl/rights/eu#T6-Justice> .
+
+<http://eaontology.linkeddata.es/kos/EA0042>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0041> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Capabilities"@en ;
+  skos:narrower <http://eaontology.linkeddata.es/kos/EA0043>, <http://eaontology.linkeddata.es/kos/EA0044>, <http://eaontology.linkeddata.es/kos/EA0045>, <http://eaontology.linkeddata.es/kos/EA0046>, <http://eaontology.linkeddata.es/kos/EA0047>, <http://eaontology.linkeddata.es/kos/EA0048>, <http://eaontology.linkeddata.es/kos/EA0049>, <http://eaontology.linkeddata.es/kos/EA0050>, <http://eaontology.linkeddata.es/kos/EA0051>, <http://eaontology.linkeddata.es/kos/EA0052>, <http://eaontology.linkeddata.es/kos/EA0053> ;
+  skos:exactMatch <http://data.europa.eu/ett/kos/c_0ae7875e> .
+
+<http://eaontology.linkeddata.es/kos/EA0043>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0042> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Life"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0044>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0042> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Bodily health"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0045>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0042> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Bodily integraty"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0046>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0042> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Senses"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0047>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0042> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Imagination and thougth"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0048>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0042> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Emotions"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0049>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0042> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Practical reason"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0050>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0042> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Afiliation"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0051>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0042> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Other species"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0052>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0042> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Play"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0053>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0042> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Control over one's enviroment"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0054>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0041> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Global justice"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0055>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0041> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Integrational justice"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0056>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0041> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Just distribution"@en ;
+  skos:narrower <http://eaontology.linkeddata.es/kos/EA0057>, <http://eaontology.linkeddata.es/kos/EA0058> .
+
+<http://eaontology.linkeddata.es/kos/EA0057>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0056> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Just distributive of primary goods"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0058>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0056> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Risk and hazards"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0059>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0041> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Non discrimination and equal treatment"@en ;
+  skos:narrower <http://eaontology.linkeddata.es/kos/EA0060>, <http://eaontology.linkeddata.es/kos/EA0061>, <http://eaontology.linkeddata.es/kos/EA0062>, <http://eaontology.linkeddata.es/kos/EA0063>, <http://eaontology.linkeddata.es/kos/EA0064>, <http://eaontology.linkeddata.es/kos/EA0065>, <http://eaontology.linkeddata.es/kos/EA0066>, <http://eaontology.linkeddata.es/kos/EA0067> ;
+  skos:exactMatch <https://w3id.org/dpv/dpv-owl/rights/eu#A21-NonDiscrimination> ;
+  skos:definition "Refer to the practice to guarantee people’s rights are respected without discrimination."@en .
+
+<http://eaontology.linkeddata.es/kos/EA0060>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0059> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Discrimination or inequality related to age"@en ;
+  skos:exactMatch <http://data.europa.eu/8mn/euroscivoc/46fb9b5a-8493-4b52-86a4-43b7ba7d2387> .
+
+<http://eaontology.linkeddata.es/kos/EA0061>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0059> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Discrimination or inequality related to disability"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0062>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0059> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Discrimination or inequality related to ethinicity"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0063>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0059> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Discrimination or inequality related to gender"@en ;
+  skos:relatedMatch <http://data.europa.eu/8mn/euroscivoc/ba914e3a-d949-4377-9dec-172842c43011> .
+
+<http://eaontology.linkeddata.es/kos/EA0064>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0059> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Discrimination or inequality related to race or ethinicity"@en ;
+  skos:relatedMatch <http://data.europa.eu/8mn/euroscivoc/d7211835-274b-43bc-9917-59caa1768b8f> .
+
+<http://eaontology.linkeddata.es/kos/EA0065>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0059> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Discrimination or inequality related to relegion"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0066>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0059> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Discrimination or inequality related to sexual orientation"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0067>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0059> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Discrimination or inequality related to social class"@en ;
+  skos:relatedMatch <http://data.europa.eu/8mn/euroscivoc/e7b9a22b-8915-4a56-a5e4-b2670cf2fd6f> .
+
+<http://eaontology.linkeddata.es/kos/EA0068>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0041> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Power asymmetrie"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0069>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0041> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Socia iInclusion"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0070>
+  a skos:Concept ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Wellbeing and common good"@en ;
+  skos:narrower <http://eaontology.linkeddata.es/kos/EA0071>, <http://eaontology.linkeddata.es/kos/EA0072>, <http://eaontology.linkeddata.es/kos/EA0073>, <http://eaontology.linkeddata.es/kos/EA0074> .
+
+<http://eaontology.linkeddata.es/kos/EA0071>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0070> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Supportive of culture and culture diversity"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0072>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0070> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Supportive of democracy and democratic institution"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0073>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0070> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Supportive of institutions and structure that are vital"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0074>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0070> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Supportive of happiness and self-development"@en ;
+  skos:narrower <http://eaontology.linkeddata.es/kos/EA0075>, <http://eaontology.linkeddata.es/kos/EA0076>, <http://eaontology.linkeddata.es/kos/EA0077>, <http://eaontology.linkeddata.es/kos/EA0078>, <http://eaontology.linkeddata.es/kos/EA0079>, <http://eaontology.linkeddata.es/kos/EA0080>, <http://eaontology.linkeddata.es/kos/EA0081>, <http://eaontology.linkeddata.es/kos/EA0082>, <http://eaontology.linkeddata.es/kos/EA0083>, <http://eaontology.linkeddata.es/kos/EA0084> .
+
+<http://eaontology.linkeddata.es/kos/EA0075>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0074> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Supportive of happiness"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0076>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0074> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Supportive of health"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0077>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0074> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Supportive of knowledge"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0078>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0074> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Supportive of wisdom"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0079>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0074> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Supportive of intelectual virtue"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0080>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0074> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Supportive of frindship"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0081>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0074> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Supportive of trust"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0082>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0074> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Supportive of achievement"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0083>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0074> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Supportive of desire-Fulfillment"@en .
+
+<http://eaontology.linkeddata.es/kos/EA0084>
+  a skos:Concept ;
+  skos:broader <http://eaontology.linkeddata.es/kos/EA0074> ;
+  skos:inScheme <http://eaontology.linkeddata.es/def/kos/EthicalAssessment> ;
+  skos:prefLabel "Supportive of transcendentMeaning"@en .
